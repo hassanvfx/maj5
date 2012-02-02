@@ -1,0 +1,95 @@
+<style type="text/css">
+
+.backPage{
+
+position:absolute;
+top:0px;
+left:0px;
+z-index:1;
+}
+.centeredPlayer_div{
+
+position:absolute;
+top:200px;
+left:54px;
+z-index:2;
+}
+
+.centeredPlayer_txt{
+
+position:absolute;
+top:570px;
+left:40px;
+z-index:1;
+}
+
+.centeredPlayer_txt a{
+
+     top:5px;
+text-decoration: none;
+    
+    font-weight:normal;
+    font-variant:small-caps;
+    color:#000;
+    
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:14px;
+    text-align:left;
+    font-family:helvetica, sans-serif;
+}
+
+</style>
+<script language ="JavaScript">
+
+function PlayIt(movname)
+        {
+               movname.Play();
+        }
+function StopIt(movname)
+        {
+                movname.Stop();
+        }
+
+  function rewindIt(movname)
+        {
+                movname.rewind();
+        }
+ function SetRate(movname,rate)
+        {
+                movname.SetRate(rate);
+        }
+  function SetTime(movname,time)
+        {
+                movname.SetTime(time);
+        }
+
+function VolumeIt(movname,v)
+         {
+                 movname.SetVolume(v);
+         } 
+// (v comes from value of the form(volform) item (level) next to it  below  document.volform.level.value)
+
+</script> 
+<div class="backPage">
+<img src="media/portfolio/web/curriweb2.jpg" border="0" usemap="#mapPrep" />
+<map name="mapPrep" id="mapPrep">
+  <area shape="rect" coords="140,290,870,942" href="#" onClick="javascript:$.prettyPhoto.open('http://vimeo.com/35301989&width=700&height=400','','');" />
+  <area shape="rect" coords="44,926,903,1218" href="http://www.vfxwarrior.com/portfolio2011.pdf" />
+</map>
+</div>
+
+
+<!-- ...end embedded QuickTime file 
+
+<form name="volform1">
+<input name="play tester" type="button" value="play jesu1" ">
+<input name="stop jesu1" type="button" value="stop jesu1" onclick="StopIt(document.movie7);"><br>
+Please set the volume you want and then click the button <br>
+  <input name="volcontrol" type="button" value="Set volume"
+ onclick="VolumeIt(document.movie7,document.volform1.level.value);">Volume  level (0-255):&nbsp;
+<input name="level" type="text" value="128" size="3" maxlength="3"> <br>
+ <input name="rate2" type="button" value="play 2x rate"  onclick="SetRate(document.movie7,2.0);">&nbsp;&nbsp;
+<input  name="rate1" type="button" value="play normal rate"
+ onclick="SetRate(document.movie7,1.0);">
+</form>-->

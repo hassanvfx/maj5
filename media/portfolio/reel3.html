@@ -1,0 +1,147 @@
+<style type="text/css">
+
+.backPage{
+
+position:absolute;
+top:0px;
+left:0px;
+z-index:1;
+}
+.centeredPlayer_div2{
+
+position:absolute;
+top:150px;
+left:54px;
+z-index:1;
+}
+
+
+.centeredPlayer_txt2{
+
+position:absolute;
+top:105px;
+left:10px;
+z-index:1;
+}
+
+.centeredPlayer_txt2 a{
+
+     top:5px;
+text-decoration: none;
+    
+    font-weight:normal;
+    font-variant:small-caps;
+    color:#fff;
+    
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:14px;
+    text-align:left;
+    font-family:helvetica, sans-serif;
+}
+
+</style>
+<script language ="JavaScript">
+
+function PlayIt(movname)
+        {
+               movname.Play();
+        }
+function StopIt(movname)
+        {
+                movname.Stop();
+        }
+
+  function rewindIt(movname)
+        {
+                movname.rewind();
+        }
+ function SetRate(movname,rate)
+        {
+                movname.SetRate(rate);
+        }
+  function SetTime(movname,time)
+        {
+                movname.SetTime(time);
+        }
+
+function VolumeIt(movname,v)
+         {
+                 movname.SetVolume(v);
+         } 
+// (v comes from value of the form(volform) item (level) next to it  below  document.volform.level.value)
+
+</script> 
+<div class="backPage">
+<img src="media/portfolio/web/curriweb5.jpg" border="0" usemap="#MapQT2" />
+<map name="MapQT2" id="MapQT2">
+  <area shape="rect" coords="163,439,243,523"  href="#" onclick="PlayIt(document.movieReel);"/>
+  <area shape="rect" coords="246,440,312,523"  href="#"  onclick="StopIt(document.movieReel);"/>
+  <area shape="rect" coords="58,546,428,617"  target="_new" href="http://www.vfxwarrior.com/breakdown2011.pdf"/>
+</map>
+</div>
+
+<div class="centeredPlayer_txt2">
+    <a href="http://vimeo.com/35302053" target="_new">
+     <p> Hit Play, if video doesn't load </p>
+     <p> view my VFX Reel on Vimeo</p>
+     <p> click here. </p>
+    </a>
+</div>
+
+<div class="centeredPlayer_div2">
+<!-- begin embedded QuickTime file... -->
+
+        <!-- begin video window... -->
+
+        <OBJECT classid='clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B' 		
+        width="375"
+        height="280" codebase='http://www.apple.com/qtactivex/qtplugin.cab' id="movieReel">
+        
+        <param name="src" value="http://www.vfxwarrior.com/reel2011.mov"></param>
+     
+		<param name='target' value='myself' />
+		<param name='controller' value='false' />
+		<param name='autoplay' value='false' />
+
+		<param name='scale' value='tofit' />
+        <param name='loop' value="true">
+        <param name='volume' value="50">
+        <param name='enablejavascript' value="true">
+        <param name='name' value="movieReel">
+
+        <EMBED 
+        
+        id="movieReel" 
+        name="movieReel"
+		src="http://www.vfxwarrior.com/reel2011.mov" 
+             
+		width="375" 
+		height="280" 
+		autoplay="false" 
+        controller="false" 
+		loop="false" 
+		volume="50" 
+        enablejavascript="true"
+        scale="tofit"
+        target="myself"
+		pluginspage='http://www.apple.com/quicktime/download/'>
+        </EMBED>
+        </OBJECT>
+
+ <!-- ...end embedded QuickTime file -->
+</div>
+
+ <!-- ...end embedded QuickTime file 
+
+<form name="volform1">
+<input name="play tester" type="button" value="play jesu1" ">
+<input name="stop jesu1" type="button" value="stop jesu1" onclick="StopIt(document.movie7);"><br>
+Please set the volume you want and then click the button <br>
+  <input name="volcontrol" type="button" value="Set volume"
+ onclick="VolumeIt(document.movie7,document.volform1.level.value);">Volume  level (0-255):&nbsp;
+<input name="level" type="text" value="128" size="3" maxlength="3"> <br>
+ <input name="rate2" type="button" value="play 2x rate"  onclick="SetRate(document.movie7,2.0);">&nbsp;&nbsp;
+<input  name="rate1" type="button" value="play normal rate"
+ onclick="SetRate(document.movie7,1.0);">
+</form>-->

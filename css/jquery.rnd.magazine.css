@@ -1,0 +1,264 @@
+/* 
+    Document   : newCascadeStyleSheet
+    Created on : 13-oct-2011, 21:21:39
+    Author     : hassanvfx
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+* { margin:0; padding:0; }
+
+body {
+
+height:100%; /* this is the key! */
+} 
+
+.navigationMenu {
+    position:absolute;
+    width:100%;
+    height:25px;
+    top:0px;
+    left:0px;
+    z-index:3;
+    
+   
+
+}
+
+  
+
+.navigationMenuContent {
+
+     width:100%;
+     height:100%;
+ 
+    font-weight:normal;
+    font-variant:small-caps;
+    color:#FFFFFF;
+    background-color:#000000;
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:14px;
+    text-align:center;
+    font-family:helvetica, sans-serif;
+    line-height:2.0;
+   
+   
+
+}
+
+.navigationMenuContent a{
+    
+     top:5px;
+text-decoration: none;
+    
+    font-weight:normal;
+    font-variant:small-caps;
+    color:#FFFFFF;
+    background-color:#000000;
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:14px;
+    text-align:center;
+    font-family:helvetica, sans-serif;
+   
+   
+   
+
+}
+
+
+
+
+.simpleMenu {
+        display:inline;
+}
+
+.mainMagazine {
+    
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:0;
+}
+
+
+.thumbsContainer {
+
+     width:100%;
+     height:100%;
+ 
+ 
+    background-color:#000000;
+
+   
+   
+
+}
+
+.thumbsContent {
+
+     width:100%;
+     height:100%;
+ 
+    font-weight:normal;
+    font-variant:small-caps;
+    color:#ccc;
+    background-color:#000000;
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:14px;
+    text-align:center;
+    font-family:helvetica, sans-serif;
+    line-height:1.5;
+   
+   
+
+}
+
+.thumbsContent a{
+    
+     top:5px;
+    text-decoration: none;
+    
+    font-weight:normal;
+    font-variant:small-caps;
+    color:#ccc;
+    background-color:#000000;
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:14px;
+    text-align:center;
+    font-family:helvetica, sans-serif;
+   
+   
+   
+
+}
+
+.thumbsViewerPanel {
+    position:absolute;
+    width:100%;
+    height:100px;
+    bottom:0px;
+    left:0px;
+    z-index:1;
+  
+  
+  
+    
+}
+
+.thumbsViewer {
+    position:absolute;
+    width:100%;
+    height:80px;
+    bottom:0px;
+    left:0px;
+    z-index:1;
+    
+}
+
+
+ .infoBaseLinker {
+        position:absolute;
+        top:100px;
+        left:100px;
+        width:480px;
+        height:440px;
+        text-decoration: none;
+    }
+
+    .bgimageLinker {
+
+        position:absolute;
+        width:100%;
+        height:100%;
+        z-index:0;
+
+
+
+    }
+
+    .infoText1Linker {
+
+        text-decoration: none;
+        font-weight:normal;
+
+        color:#000;
+
+        letter-spacing:1pt;
+        word-spacing:2pt;
+        font-size:28px;
+        text-align:center;
+        font-family:helvetica, sans-serif;
+        line-height:2.2;
+        z-index:1;
+
+
+    }
+
+    .infoText1Linker a *{
+
+        text-decoration: none;
+        font-weight:normal;
+
+        color:#000;
+
+        letter-spacing:1pt;
+        word-spacing:2pt;
+        font-size:28px;
+        text-align:center;
+        font-family:helvetica, sans-serif;
+        line-height:2.2;
+        z-index:1;
+    }
+
+
+    .infoText2Linker {
+
+        text-decoration: none;
+        color:#000;
+
+        letter-spacing:2pt;
+
+        font-size:28px;
+        text-align:center;
+        font-family:helvetica, sans-serif;
+
+        font-style:italic;
+        z-index:1;
+
+    }
+
+
+
+    .infoText2Linker a *{
+        text-decoration: none;
+        color:#000;
+
+        letter-spacing:2pt;
+
+        font-size:28px;
+        text-align:center;
+        font-family:helvetica, sans-serif;
+
+        font-style:italic;
+        z-index:1;
+
+
+    }
+
+    A:link { text-decoration: none } ;
+    A:active { text-decoration: none };
+    A:visited { text-decoration: none };
+
+
